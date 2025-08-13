@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: white;
+  color: black;
+}
+
+.dark-theme {
+  background-color: #222;
+  color: white;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.toggle-btn {
+  cursor: pointer;
+  background-color: #eee;
+  transition: background-color 0.3s ease;
+}
+
+/* Active state */
+.toggle-btn.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Alternate color toggle */
+.toggle-btn.toggled {
+  background-color: #2196f3;
+  color: white;
+}
